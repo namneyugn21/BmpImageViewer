@@ -15,18 +15,18 @@ A Python-based GUI application for displaying, modifying, and analyzing BMP imag
 Ensure you have Python 3.7 or higher installed. Install required dependencies:
 ```sh
 pip install tk
-```sh
+```
 
 ### Clone the Repository
 ```sh
 git clone https://github.com/your-username/bmp-processor.git
 cd bmp-processor
-```sh
+```
 
 ### Run the Application
 ```sh
 python main.py
-```sh
+```
 
 ## Usage Guide
 
@@ -40,7 +40,7 @@ Move the Brightness slider (0-100%) to adjust the image brightness. The changes 
 Adjust the Scaling slider (0-100%) to resize the image. Uses nearest-neighbor interpolation for rescaling.
 
 ## Project Structure
-```
+```sh
 bmp-processor/
 │── accessors.py         # Get image metadata (width, height, bpp, file size)
 │── brightness.py        # Adjust brightness using YUV color space
